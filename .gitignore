@@ -1,0 +1,18 @@
+# Ambientes virtuais
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Pastas de dados locais (mantendo apenas a estrutura, ignorando arquivos pesados)
+data/raw/*.csv
+data/processed/*.csv
+data/gold/*.csv
+data/gold/*.pkl
+
+# Configurações do sistema e editores
+.vscode/
+.idea/
+.DS_Store
+
